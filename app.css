@@ -1,0 +1,21 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-image: linear-gradient(gray, black, gray); */
+}
+
+body {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background-image: radial-gradient(gray, black);
+}
+
+canvas {
+    width:100%;
+    display: block;
+    z-index: -1;
+}
